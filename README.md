@@ -1,7 +1,7 @@
 # fcnn
 This is a Fourier Convolutional Neural Network for note identification.
 
-This was a passion project for determining whether octave equivalence has analogy to systematic confusion due to similar overtones. The FCNN trained well enough that the idea was ruled out. Confusion was mainly between close pitches, which is also intuitive. FCNNs are valuable because they do similar work to CNNs without as much computational overhead, and with more interpretability if activation functions are unnecessary.
+This was a passion project for determining whether octave equivalence has analogy to systematic confusion due to similar harmonic frequencies. The FCNN trained well enough that the idea was ruled out. Confusion was mainly between close pitches, which is also intuitive. FCNNs are valuable because they do similar work to CNNs without as much computational overhead, and with more interpretability if activation functions are unnecessary.
 
 fcnn.py is the neural architecture. Note -> discrete Fourier transform -> flattening to squared magnitude -> fully-connected layer -> softmax -> argmax.
 
